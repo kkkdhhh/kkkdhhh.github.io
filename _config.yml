@@ -17,8 +17,8 @@ timezone: Asia/Seoul
 title: 김도현의 블로그 # the main title
 
 tagline: 
-  수행 + 탐구한 내용들 
-  정리하는 개인 블로그 # it will display as the subtitle
+ 수행 + 탐구한 내용들 
+ 정리하는 개인 블로그 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
