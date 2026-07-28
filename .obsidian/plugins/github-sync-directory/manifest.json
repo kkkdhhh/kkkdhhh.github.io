@@ -1,0 +1,10 @@
+{
+  "id": "github-sync-directory",
+  "name": "GitHub Sync Directory",
+  "version": "1.0.6",
+  "minAppVersion": "0.15.0",
+  "description": "Sync a selected vault directory to GitHub.",
+  "author": "Kevin Chin",
+  "authorUrl": "https://kevin.gd/",
+  "isDesktopOnly": true
+}

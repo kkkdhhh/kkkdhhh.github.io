@@ -171,7 +171,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "github-sync-directory:Sync with Remote": false,
+      "vscode-editor:Create Code File": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -183,6 +183,8 @@
   },
   "active": "0c1fdcf5f74690ad",
   "lastOpenFiles": [
+    "_config.yml",
+    "_posts/2026-03-23-테일러 급수의 오차항.md",
     "assets/img/profile.jpg",
     "assets/img/다운로드.jpg"
   ]
