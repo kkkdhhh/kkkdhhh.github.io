@@ -25,14 +25,12 @@
             "id": "8318be7de603e01e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "vscode-editor",
               "state": {
-                "file": "_posts/2026-07-28-중적분.md",
-                "mode": "source",
-                "source": false
+                "file": "_layouts/archives.html"
               },
               "icon": "lucide-file",
-              "title": "2026-07-28-중적분"
+              "title": "archives"
             }
           }
         ],
@@ -199,14 +197,14 @@
   },
   "active": "8318be7de603e01e",
   "lastOpenFiles": [
-    "_posts/2026-07-28-곡선 길이 적분.md",
+    "_config.yml",
     "_posts/2026-07-28-중적분.md",
+    "_posts/2026-07-28-곡선 길이 적분.md",
     "무제.md",
     "_posts/독서포럼 실험.md",
     "무제",
     "_posts/2026-03-23-테일러 급수의 오차항.md",
     "_layouts/archives.html",
-    "_config.yml",
     "_includes/post-summary.html",
     "assets/img/profile.jpg",
     "assets/img/다운로드.jpg"
