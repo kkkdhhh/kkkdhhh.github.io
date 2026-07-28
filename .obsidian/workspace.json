@@ -25,14 +25,12 @@
             "id": "8318be7de603e01e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "vscode-editor",
               "state": {
-                "file": "_posts/2026-06-01-라플라스 변환.md",
-                "mode": "source",
-                "source": false
+                "file": "_config.yml"
               },
               "icon": "lucide-file",
-              "title": "2026-06-01-라플라스 변환"
+              "title": "_config"
             }
           }
         ],
@@ -199,9 +197,9 @@
   },
   "active": "8318be7de603e01e",
   "lastOpenFiles": [
+    "_posts/2026-06-01-라플라스 변환.md",
     "_posts/2026-07-28-중적분.md",
     "_posts/2026-07-28-곡선 길이 적분.md",
-    "_posts/2026-06-01-라플라스 변환.md",
     "_config.yml",
     "_posts/모델링 수학.md",
     "_posts/독서포럼 실험.md",
