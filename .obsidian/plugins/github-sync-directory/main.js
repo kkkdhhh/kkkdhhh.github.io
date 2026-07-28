@@ -4690,13 +4690,7 @@ var GHSyncPlugin = class extends import_obsidian.Plugin {
   async SyncNotes() {
     new import_obsidian.Notice("Syncing to GitHub remote");
     const remote = this.settings.remoteURL.trim();
-    const adapter = this.app.vault.adapter;
-    if (!(adapter instanceof import_obsidian.FileSystemAdapter)) {
-      new import_obsidian.Notice("This plugin requires the desktop version of Obsidian.");
-      return;
-    }
-    const vaultBasePath = adapter.getBasePath();
-    const gitBaseDir = this.settings.gitDirectory ? `${vaultBasePath}/${this.settings.gitDirectory}` : vaultBasePath;
+    const gitBaseDir = this.settings.gitDirectory ? `${this.app.vault.adapter.getBasePath()}/${this.settings.gitDirectory}` : this.app.vault.adapter.getBasePath();
     simpleGitOptions = {
       //@ts-ignore
       baseDir: gitBaseDir,
@@ -4713,7 +4707,17 @@ var GHSyncPlugin = class extends import_obsidian.Plugin {
     });
     let clean = statusResult.isClean();
     const date = new Date();
-    const msg = `chore: sync obsidian notes at ${date.toISOString()}`;
+    const formattedDate = new Intl.DateTimeFormat("sv-SE", {
+      timeZone: "Asia/Seoul",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: false
+    }).format(date);
+    const msg = `chore: sync obsidian notes at ${formattedDate}`;
     if (!clean) {
       try {
         await git.add("./*").commit(msg);
