@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "371c10d3121e7d1d",
+    "id": "26111b4553955fdc",
     "type": "split",
     "children": [
       {
-        "id": "7dffdc8f480ad5c7",
+        "id": "32284b8037c5ad10",
         "type": "tabs",
         "children": [
           {
-            "id": "9ff61ebf23aff4fc",
+            "id": "0c1fdcf5f74690ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "화학 탐구보고서(자유에너지).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "화학 탐구보고서(자유에너지)"
+              "title": "새 탭"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "52cf85481c76ab97",
+    "id": "ac051b0afa912116",
     "type": "split",
     "children": [
       {
-        "id": "cfe8379a99125f28",
+        "id": "0e04478ec18b7f9d",
         "type": "tabs",
         "children": [
           {
-            "id": "488f4e3f902dc6b3",
+            "id": "b9ef0e5b14ab8bc0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "aee3faad00675885",
+            "id": "4f108f20f0c314a2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "8e4d5b7d4e76df6b",
+            "id": "fdd1c384144a0f21",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +77,19 @@
     "width": 300
   },
   "right": {
-    "id": "983d2c357166397b",
+    "id": "16d48c843ecdf8fc",
     "type": "split",
     "children": [
       {
-        "id": "035f676bbc625656",
+        "id": "ca4e54d2360c0a16",
         "type": "tabs",
         "children": [
           {
-            "id": "e3d781c7c9d98e30",
+            "id": "ab31c227986960b9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-03-23-테일러 급수의 오차항.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2026-03-23-테일러 급수의 오차항 의 백링크"
+              "title": "백링크"
             }
           },
           {
-            "id": "06314b0bbb536e94",
+            "id": "be98aa2b477e8cc2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2026-03-23-테일러 급수의 오차항.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2026-03-23-테일러 급수의 오차항 의 나가는 링크"
+              "title": "나가는 링크"
             }
           },
           {
-            "id": "84d4c73f589cbc75",
+            "id": "27a0effd7bacd312",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +131,7 @@
             }
           },
           {
-            "id": "71eb9041bd8ae77f",
+            "id": "51275873381c5ae1",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,18 +145,17 @@
             }
           },
           {
-            "id": "cfd85935363ded7d",
+            "id": "838e22970a3742f0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-03-23-테일러 급수의 오차항.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-03-23-테일러 급수의 오차항 의 개요"
+              "title": "개요"
             }
           }
         ]
@@ -180,17 +173,9 @@
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "bases:새 베이스 생성하기": false,
-      "github-sync:Sync with Remote": false
+      "bases:새 베이스 생성하기": false
     }
   },
-  "active": "9ff61ebf23aff4fc",
-  "lastOpenFiles": [
-    "화학2 수행(화학적 기상 증착).md",
-    "화학 탐구보고서(자유에너지).md",
-    "확통 수행 (tmr, nmr).md",
-    "확통 수행(자기 분석).md",
-    "BCS이론.md",
-    "2026-03-23-테일러 급수의 오차항.md"
-  ]
+  "active": "0c1fdcf5f74690ad",
+  "lastOpenFiles": []
 }
