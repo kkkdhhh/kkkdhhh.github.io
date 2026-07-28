@@ -11,14 +11,12 @@
             "id": "0c1fdcf5f74690ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "vscode-editor",
               "state": {
-                "file": "_posts/2026-03-23-테일러 급수의 오차항.md",
-                "mode": "source",
-                "source": false
+                "file": "_includes/post-summary.html"
               },
               "icon": "lucide-file",
-              "title": "2026-03-23-테일러 급수의 오차항"
+              "title": "post-summary"
             }
           }
         ]
@@ -178,13 +176,14 @@
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "bases:새 베이스 생성하기": false
+      "bases:새 베이스 생성하기": false,
+      "github-sync-directory:Sync with Remote": false
     }
   },
   "active": "0c1fdcf5f74690ad",
   "lastOpenFiles": [
-    "_config.yml",
     "_posts/2026-03-23-테일러 급수의 오차항.md",
+    "_config.yml",
     "assets/img/profile.jpg",
     "assets/img/다운로드.jpg"
   ]
