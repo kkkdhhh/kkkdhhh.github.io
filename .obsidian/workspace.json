@@ -27,10 +27,10 @@
             "state": {
               "type": "vscode-editor",
               "state": {
-                "file": "_layouts/home.html"
+                "file": "_config.yml"
               },
               "icon": "lucide-file",
-              "title": "home"
+              "title": "_config"
             }
           }
         ],
@@ -197,6 +197,7 @@
   },
   "active": "8318be7de603e01e",
   "lastOpenFiles": [
+    "_layouts/home.html",
     "_sass/layout/_sidebar.scss",
     "_sass/layout/_panel.scss",
     "_sass/layout/_footer.scss",
