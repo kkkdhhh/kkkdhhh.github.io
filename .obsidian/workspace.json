@@ -27,10 +27,10 @@
             "state": {
               "type": "vscode-editor",
               "state": {
-                "file": "_layouts/archives.html"
+                "file": "_layouts/home.html"
               },
               "icon": "lucide-file",
-              "title": "archives"
+              "title": "home"
             }
           }
         ],
@@ -197,14 +197,23 @@
   },
   "active": "8318be7de603e01e",
   "lastOpenFiles": [
+    "_sass/layout/_sidebar.scss",
+    "_sass/layout/_panel.scss",
+    "_sass/layout/_footer.scss",
+    "assets/css/jekyll-theme-chirpy.scss",
+    "index.html",
     "_config.yml",
+    "_tabs/about.md",
+    "_tabs/archives.md",
+    "_tabs/tags.md",
+    "_tabs/categories.md",
+    "_layouts/archives.html",
     "_posts/2026-07-28-중적분.md",
     "_posts/2026-07-28-곡선 길이 적분.md",
     "무제.md",
     "_posts/독서포럼 실험.md",
     "무제",
     "_posts/2026-03-23-테일러 급수의 오차항.md",
-    "_layouts/archives.html",
     "_includes/post-summary.html",
     "assets/img/profile.jpg",
     "assets/img/다운로드.jpg"
