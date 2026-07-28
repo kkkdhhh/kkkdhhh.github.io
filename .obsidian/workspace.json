@@ -197,10 +197,12 @@
   },
   "active": "8318be7de603e01e",
   "lastOpenFiles": [
+    "assets/img/Instagram.jpg",
+    "_config.yml",
+    "_posts/2026-03-23-테일러 급수의 오차항.md",
     "_posts/2026-06-01-라플라스 변환.md",
     "_posts/2026-07-28-중적분.md",
     "_posts/2026-07-28-곡선 길이 적분.md",
-    "_config.yml",
     "_posts/모델링 수학.md",
     "_posts/독서포럼 실험.md",
     "_posts/기하 수행(벡터).md",
@@ -217,7 +219,6 @@
     "_layouts/archives.html",
     "무제.md",
     "무제",
-    "_posts/2026-03-23-테일러 급수의 오차항.md",
     "_includes/post-summary.html",
     "assets/img/profile.jpg",
     "assets/img/다운로드.jpg"
