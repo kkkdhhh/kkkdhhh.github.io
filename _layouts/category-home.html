@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+
+{% assign home_categories = '수학,물리,그 외' | split: ',' %}
+
+<div class="category-home-grid">
+  {% for category_name in home_categories %}
+    {% assign category_posts = site.categories[category_name] %}
+
+    {% if category_posts.size > 0 %}
+      <section class="category-home-card card">
+        <div class="card-body">
+          <h2>
+            <a href="{{ '/categories/' | append: category_name | append: '/' | relative_url }}">
+              {{ category_name }}
+            </a>
+          </h2>
+
+          {% for post in category_posts limit: 4 %}
+            <article class="category-post">
+              <a href="{{ post.url | relative_url }}">
+                <h3>{{ post.title }}</h3>
+                <p>
+                  {{ post.description
+                    | default: post.excerpt
+                    | strip_html
+                    | truncate: 90 }}
+                </p>
+                <time>{{ post.date | date: '%Y/%m/%d' }}</time>
+              </a>
+            </article>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+  {% endfor %}
+</div>

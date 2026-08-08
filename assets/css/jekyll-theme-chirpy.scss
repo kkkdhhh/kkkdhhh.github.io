@@ -13,41 +13,43 @@
 ';
 
 /* append your custom style below */
-/* 홈 게시글을 카드 그리드로 배치 */
-#post-list {
+.category-home-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.25rem;
 }
 
-#post-list .card-wrapper {
-  height: 100%;
-  margin-bottom: 0 !important;
+.category-home-card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
-#post-list .card,
-#post-list .post-preview {
-  height: 100%;
+.category-post {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--main-border-color);
 }
 
-/* 카드 안의 이미지는 위쪽에 배치 */
-#post-list .post-preview {
-  flex-direction: column !important;
+.category-post:last-child {
+  border-bottom: 0;
 }
 
-#post-list .post-preview > div {
-  width: 100%;
+.category-post h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.1rem;
 }
 
-#post-list .post-preview img {
-  width: 100%;
-  aspect-ratio: 1.91 / 1;
-  object-fit: cover;
+.category-post p {
+  margin-bottom: 0.35rem;
+  color: var(--text-muted-color);
 }
 
-/* 태블릿·PC에서는 2열 */
+.category-post time {
+  color: var(--text-muted-color);
+  font-size: 0.85rem;
+}
+
 @media (min-width: 768px) {
-  #post-list {
+  .category-home-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
