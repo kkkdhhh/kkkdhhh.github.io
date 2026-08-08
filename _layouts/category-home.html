@@ -4,32 +4,44 @@ layout: default
 
 {% include lang.html %}
 
-{% assign home_categories = '수학,물리,그 외' | split: ',' %}
+{% assign home_categories = '수학,물리,화학,전자공학' | split: ',' %}
 
-<div class="category-home-grid">
+<div id="category-home">
   {% for category_name in home_categories %}
     {% assign category_posts = site.categories[category_name] %}
 
     {% if category_posts.size > 0 %}
-      <section class="category-home-card card">
-        <div class="card-body">
-          <h2>
-            <a href="{{ '/categories/' | append: category_name | append: '/' | relative_url }}">
-              {{ category_name }}
-            </a>
-          </h2>
+      <section class="home-category">
+        <div class="category-heading">
+          <h2>{{ category_name }}</h2>
 
+          <a href="{{ '/categories/' | append: category_name | append: '/' | relative_url }}">
+            전체 보기 →
+          </a>
+        </div>
+
+        <div class="category-post-grid">
           {% for post in category_posts limit: 4 %}
-            <article class="category-post">
-              <a href="{{ post.url | relative_url }}">
-                <h3>{{ post.title }}</h3>
-                <p>
-                  {{ post.description
-                    | default: post.excerpt
-                    | strip_html
-                    | truncate: 90 }}
-                </p>
-                <time>{{ post.date | date: '%Y/%m/%d' }}</time>
+            <article class="card-wrapper card">
+              <a href="{{ post.url | relative_url }}" class="post-preview">
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title">{{ post.title }}</h3>
+
+                  <div class="card-text content">
+                    <p>
+                      {% if post.description %}
+                        {{ post.description }}
+                      {% else %}
+                        {% include post-summary.html %}
+                      {% endif %}
+                    </p>
+                  </div>
+
+                  <div class="post-meta mt-auto">
+                    <i class="far fa-calendar fa-fw me-1"></i>
+                    {% include datetime.html date=post.date lang=lang %}
+                  </div>
+                </div>
               </a>
             </article>
           {% endfor %}
