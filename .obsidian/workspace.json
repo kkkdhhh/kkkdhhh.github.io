@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-07-28-곡선 길이 적분.md",
+                "file": "_posts/2026-08-08-모든 수는 세 글자로 이어짐에 대한 증명.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-28-곡선 길이 적분"
+              "title": "2026-08-08-모든 수는 세 글자로 이어짐에 대한 증명"
             }
           },
           {
@@ -32,23 +32,8 @@
               "icon": "lucide-file",
               "title": "_config"
             }
-          },
-          {
-            "id": "f9a7844e8db5f80b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2026-08-08-모든 수는 세 글자로 이어짐에 대한 증명.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-08-08-모든 수는 세 글자로 이어짐에 대한 증명"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,17 +196,25 @@
       "github-sync-directory:Sync with Remote": false
     }
   },
-  "active": "f9a7844e8db5f80b",
+  "active": "0c1fdcf5f74690ad",
   "lastOpenFiles": [
-    "_posts/2026-08-08-물리 임시.md",
+    "assets/img/posts 1.md",
     "_posts/2026-08-08-모든 수는 세 글자로 이어짐에 대한 증명.md",
+    "_posts/2026-08-08-물리 임시.md",
+    "_posts/2026-07-28-곡선 길이 적분.md",
+    "_config.yml",
+    "assets/img/posts.md",
+    "assets/img/posts/HPG0VHPbwAA3qI5.jpg",
+    "assets/img/posts/HPG0VHCa0AAVIW5.jpg",
+    "assets/img/posts",
+    "assets/img/새 폴더",
+    "assets/img/HPG0VHPbwAA3qI5.jpg",
+    "assets/img/HPG0VHCa0AAVIW5.jpg",
     "Pasted image 20260808234914.jpg",
     "_posts/2026-07-28-중적분.md",
     "_posts/2026-03-23-테일러 급수의 오차항.md",
-    "_config.yml",
     "assets/img/Instagram.jpg",
     "_posts/2026-06-01-라플라스 변환.md",
-    "_posts/2026-07-28-곡선 길이 적분.md",
     "_posts/모델링 수학.md",
     "_posts/독서포럼 실험.md",
     "_posts/기하 수행(벡터).md",
@@ -237,8 +230,6 @@
     "_tabs/categories.md",
     "_layouts/archives.html",
     "무제.md",
-    "무제",
-    "_includes/post-summary.html",
     "assets/img/profile.jpg",
     "assets/img/다운로드.jpg"
   ]
