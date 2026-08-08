@@ -13,3 +13,41 @@
 ';
 
 /* append your custom style below */
+/* 홈 게시글을 카드 그리드로 배치 */
+#post-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+#post-list .card-wrapper {
+  height: 100%;
+  margin-bottom: 0 !important;
+}
+
+#post-list .card,
+#post-list .post-preview {
+  height: 100%;
+}
+
+/* 카드 안의 이미지는 위쪽에 배치 */
+#post-list .post-preview {
+  flex-direction: column !important;
+}
+
+#post-list .post-preview > div {
+  width: 100%;
+}
+
+#post-list .post-preview img {
+  width: 100%;
+  aspect-ratio: 1.91 / 1;
+  object-fit: cover;
+}
+
+/* 태블릿·PC에서는 2열 */
+@media (min-width: 768px) {
+  #post-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
