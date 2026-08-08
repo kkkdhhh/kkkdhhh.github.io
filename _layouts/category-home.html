@@ -6,6 +6,27 @@ layout: default
 
 {% assign home_categories = '수학,물리,화학,전자공학' | split: ',' %}
 
+<section class="home-intro">
+  <span class="home-intro-label">STUDY ARCHIVE</span>
+
+  <h1>탐구하고 이해한 내용을 기록합니다.</h1>
+
+  <p>
+    수학과 물리 등을 공부하며 궁금했던 개념과
+    수행평가·탐구 활동을 정리하는 공간입니다.
+  </p>
+
+  <div class="home-intro-links">
+    <a href="{{ '/archives/' | relative_url }}" class="btn btn-primary">
+      전체 글 보기
+    </a>
+
+    <a href="{{ '/about/' | relative_url }}" class="btn btn-outline-secondary">
+      블로그 소개
+    </a>
+  </div>
+</section>
+
 <div id="category-home">
   {% for category_name in home_categories %}
     {% assign category_posts = site.categories[category_name] %}
