@@ -11,14 +11,12 @@
             "id": "0c1fdcf5f74690ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "vscode-editor",
               "state": {
-                "file": "_tabs/about.md",
-                "mode": "source",
-                "source": false
+                "file": "_layouts/category-home.html"
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "category-home"
             }
           },
           {
@@ -198,6 +196,7 @@
   },
   "active": "0c1fdcf5f74690ad",
   "lastOpenFiles": [
+    "_tabs/about.md",
     "_tabs/archives.md",
     "_tabs/categories.md",
     "_posts/2026-08-08-모든 수는 세 글자로 이어짐에 대한 증명.md",
@@ -226,7 +225,6 @@
     "_sass/layout/_footer.scss",
     "assets/css/jekyll-theme-chirpy.scss",
     "index.html",
-    "_tabs/about.md",
     "_tabs/tags.md",
     "_layouts/archives.html",
     "무제.md",
