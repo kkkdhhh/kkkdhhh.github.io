@@ -32,9 +32,23 @@
               "icon": "lucide-file",
               "title": "_config"
             }
+          },
+          {
+            "id": "f9a7844e8db5f80b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2026-08-08-물리 임시.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-08-08-물리 임시"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -54,7 +68,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -195,13 +211,14 @@
       "github-sync-directory:Sync with Remote": false
     }
   },
-  "active": "8318be7de603e01e",
+  "active": "f9a7844e8db5f80b",
   "lastOpenFiles": [
+    "_posts/2026-07-28-중적분.md",
+    "_posts/2026-08-08-물리 임시.md",
     "_posts/2026-03-23-테일러 급수의 오차항.md",
     "_config.yml",
     "assets/img/Instagram.jpg",
     "_posts/2026-06-01-라플라스 변환.md",
-    "_posts/2026-07-28-중적분.md",
     "_posts/2026-07-28-곡선 길이 적분.md",
     "_posts/모델링 수학.md",
     "_posts/독서포럼 실험.md",
