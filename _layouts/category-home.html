@@ -41,7 +41,7 @@ layout: default
         </div>
 
         <div class="category-post-grid">
-          {% for post in category_posts limit: 4 %}
+          {% for post in category_posts limit:  6%}
             <article class="card-wrapper card">
               <a href="{{ post.url | relative_url }}" class="post-preview">
                 <div class="card-body d-flex flex-column">
