@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-08-12-등승수열에 대한 탐구.md",
+                "file": "_posts/2026-08-15-선형 판별 분석.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-08-12-등승수열에 대한 탐구"
+              "title": "2026-08-15-선형 판별 분석"
             }
           },
           {
@@ -198,7 +198,8 @@
   },
   "active": "0c1fdcf5f74690ad",
   "lastOpenFiles": [
-    "_posts/모델링 수학.md",
+    "_posts/2026-08-12-등승수열에 대한 탐구.md",
+    "_posts/2026-08-15-선형 판별 분석.md",
     "_posts/BCS이론.md",
     "_posts/수학 수행(자연수 집합).md",
     "_posts/화학 탐구보고서(자유에너지).md",
@@ -211,7 +212,6 @@
     "_posts/확통 수행 (tmr, nmr).md",
     "_posts/확통 수행(자기 분석).md",
     "_posts/기가 수행(발명).md",
-    "_posts/2026-08-12-등승수열에 대한 탐구.md",
     "_posts/2026-08-08-물리 임시.md",
     "_tabs/about.md",
     "_tabs/tags.md",
