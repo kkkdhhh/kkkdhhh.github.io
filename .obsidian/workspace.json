@@ -11,14 +11,12 @@
             "id": "0c1fdcf5f74690ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "vscode-editor",
               "state": {
-                "file": "_posts/2026-08-15-선형 판별 분석.md",
-                "mode": "source",
-                "source": false
+                "file": "_layouts/category-home.html"
               },
               "icon": "lucide-file",
-              "title": "2026-08-15-선형 판별 분석"
+              "title": "category-home"
             }
           },
           {
@@ -198,8 +196,8 @@
   },
   "active": "0c1fdcf5f74690ad",
   "lastOpenFiles": [
-    "_posts/2026-08-12-등승수열에 대한 탐구.md",
     "_posts/2026-08-15-선형 판별 분석.md",
+    "_posts/2026-08-12-등승수열에 대한 탐구.md",
     "_posts/BCS이론.md",
     "_posts/수학 수행(자연수 집합).md",
     "_posts/화학 탐구보고서(자유에너지).md",
