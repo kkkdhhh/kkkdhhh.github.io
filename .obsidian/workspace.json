@@ -13,25 +13,42 @@
             "state": {
               "type": "vscode-editor",
               "state": {
-                "file": "_layouts/category-home.html"
+                "file": "_layouts/compress.html"
               },
               "icon": "lucide-file",
-              "title": "category-home"
+              "title": "compress"
             }
           },
           {
             "id": "8318be7de603e01e",
             "type": "leaf",
             "state": {
-              "type": "vscode-editor",
+              "type": "markdown",
               "state": {
-                "file": "_config.yml"
+                "file": "_posts/2026-03-23-테일러 급수의 오차항.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "_config"
+              "title": "2026-03-23-테일러 급수의 오차항"
+            }
+          },
+          {
+            "id": "6f0dbd2aa4174a65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2026-08-17-르장드르 다항식.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-08-17-르장드르 다항식"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,10 +211,21 @@
       "github-sync-directory:Sync with Remote": false
     }
   },
-  "active": "0c1fdcf5f74690ad",
+  "active": "6f0dbd2aa4174a65",
   "lastOpenFiles": [
     "_posts/2026-08-15-선형 판별 분석.md",
+    "_posts/2026-08-17-르장드르 다항식.md",
+    "_posts/2026-03-23-테일러 급수의 오차항.md",
+    "_posts/2026-06-01-라플라스 변환.md",
+    "_posts/2026-07-28-곡선 길이 적분.md",
+    "_posts/2026-07-28-중적분.md",
+    "_posts/2026-08-08-모든 수는 세 글자로 이어짐에 대한 증명.md",
+    "_posts/2026-08-08-물리 임시.md",
     "_posts/2026-08-12-등승수열에 대한 탐구.md",
+    "_config.yml",
+    "_layouts/category-home.html",
+    "_layouts/category.html",
+    "_layouts/categories.html",
     "_posts/BCS이론.md",
     "_posts/수학 수행(자연수 집합).md",
     "_posts/화학 탐구보고서(자유에너지).md",
@@ -210,17 +238,11 @@
     "_posts/확통 수행 (tmr, nmr).md",
     "_posts/확통 수행(자기 분석).md",
     "_posts/기가 수행(발명).md",
-    "_posts/2026-08-08-물리 임시.md",
     "_tabs/about.md",
     "_tabs/tags.md",
-    "_layouts/category-home.html",
     "_tabs/archives.md",
     "_tabs/categories.md",
-    "_posts/2026-08-08-모든 수는 세 글자로 이어짐에 대한 증명.md",
     "assets/img/posts 1.md",
-    "_posts/2026-07-28-곡선 길이 적분.md",
-    "_config.yml",
-    "assets/img/posts.md",
     "assets/img/posts/HPG0VHPbwAA3qI5.jpg",
     "assets/img/posts/HPG0VHCa0AAVIW5.jpg",
     "assets/img/posts",
@@ -228,16 +250,11 @@
     "assets/img/HPG0VHPbwAA3qI5.jpg",
     "assets/img/HPG0VHCa0AAVIW5.jpg",
     "Pasted image 20260808234914.jpg",
-    "_posts/2026-07-28-중적분.md",
-    "_posts/2026-03-23-테일러 급수의 오차항.md",
     "assets/img/Instagram.jpg",
-    "_posts/2026-06-01-라플라스 변환.md",
     "_layouts/home.html",
     "_sass/layout/_sidebar.scss",
     "_sass/layout/_panel.scss",
     "_sass/layout/_footer.scss",
-    "assets/css/jekyll-theme-chirpy.scss",
-    "index.html",
     "assets/img/profile.jpg",
     "assets/img/다운로드.jpg"
   ]
